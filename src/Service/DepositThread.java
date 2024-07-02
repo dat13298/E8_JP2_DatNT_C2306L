@@ -5,8 +5,8 @@ import Entity.Account;
 
 public class DepositThread extends AccountService{
 
-    public DepositThread(Account account, double amount) {
-        super(account, amount);
+    public DepositThread(Account acc, double amount) {
+        super(acc, amount);
     }
 
     @Override

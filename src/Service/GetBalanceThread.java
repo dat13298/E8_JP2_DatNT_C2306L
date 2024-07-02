@@ -4,8 +4,8 @@ import Entity.Account;
 
 public class GetBalanceThread extends AccountService{
 
-    public GetBalanceThread(Account account, double amount) {
-        super(account, amount);
+    public GetBalanceThread(Account acc, double amount) {
+        super(acc, amount);
     }
 
     @Override

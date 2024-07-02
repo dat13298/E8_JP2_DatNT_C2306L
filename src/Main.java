@@ -37,6 +37,5 @@ public class Main {
         }
 //        System.out.println(t1.getState());
 //        System.out.println(t2.getState());
-//        System.out.println(account.getBalance());
     }
 }

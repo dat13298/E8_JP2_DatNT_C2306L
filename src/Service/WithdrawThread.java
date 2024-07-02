@@ -4,8 +4,8 @@ import Entity.Account;
 
 public class WithdrawThread extends AccountService{
 
-    public WithdrawThread(Account account, double amount) {
-        super(account, amount);
+    public WithdrawThread(Account acc, double amount) {
+        super(acc, amount);
     }
 
     @Override
