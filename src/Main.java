@@ -32,7 +32,6 @@ public class Main {
         try {
             t1.join();
             t2.join();
-            t3.join();
         } catch (IOError | InterruptedException e) {
             System.out.println(e.getMessage());
         }
