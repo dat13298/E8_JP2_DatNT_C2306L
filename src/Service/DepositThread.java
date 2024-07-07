@@ -10,13 +10,13 @@ public class DepositThread extends AccountService implements Runnable{
     }
 
     @Override
-    public Account transaction(double amount) {
-        account.setBalance(account.getBalance() + amount);
-        return account;
+    public Account transaction() {
+        super.getAccount().setBalance(super.getAccount().getBalance() + super.getAmount());
+        return super.getAccount();
     }
 
     @Override
     public void run() {
-        transaction(amount);
+        transaction();
     }
 }

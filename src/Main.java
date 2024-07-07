@@ -23,6 +23,7 @@ public class Main {
 
         t1.start();
         t2.start();
+
         System.out.println(t1.getState());
         System.out.println(t2.getState());
         try {
@@ -31,8 +32,6 @@ public class Main {
         } catch (IOError | InterruptedException e) {
             System.out.println(e.getMessage());
         }
-//        System.out.println(t1.getState());
-//        System.out.println(t2.getState());
-        System.out.println(account.getBalance());
+        System.out.println(account);
     }
 }
